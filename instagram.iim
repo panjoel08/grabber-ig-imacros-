@@ -1,0 +1,19 @@
+﻿VERSION BUILD=8970419 RECORDER=FX
+TAB T=1
+SET msg "GRABBER Photo instagram imacros by panjoel " 
+SET !EXTRACT_TEST_POPUP NO 
+TAG POS=1 TYPE=IMG ATTR=class:_2di5p* EXTRACT=href
+TAG POS=2 TYPE=IMG ATTR=class:_2di5p* EXTRACT=href
+TAG POS=3 TYPE=IMG ATTR=class:_2di5p* EXTRACT=href
+TAG POS=4 TYPE=IMG ATTR=class:_2di5p* EXTRACT=href
+TAG POS=6 TYPE=IMG ATTR=class:_2di5p* EXTRACT=href
+TAG POS=7 TYPE=IMG ATTR=class:_2di5p* EXTRACT=href
+
+' tinggal tambahin jumlah photo yang mau di save 
+'contoh
+'berurutan 
+'TAG POS=8 TYPE=IMG ATTR=class:_2di5p* EXTRACT=href
+URL GOTO=javascript:setTimeout("alert('{{msg}}');",300);void(0);
+
+
+
